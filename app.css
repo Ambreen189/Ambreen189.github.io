@@ -56,3 +56,75 @@ img {
 .navLinks a:hover {
   color: #A58B70;
 }
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 8%;
+  gap: 60px;
+  background-color: #F7F4EE;
+}
+
+.heroContent {
+  flex: 1;
+  max-width: 600px;
+}
+
+.heroSub {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #A58B70;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.heroContent h2 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #292929;
+}
+
+.heroContent h3 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #8B7561;
+}
+
+.heroDescription {
+  font-size: 16px;
+  color: #666;
+  max-width: 480px;
+  margin-bottom: 30px;
+}
+
+.heroBtn {
+  display: inline-block;
+  padding: 13px 28px;
+  background-color: #292929;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.heroBtn:hover {
+  background-color: #A58B70;
+}
+
+.heroImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.heroBtn img {
+  width: 100%;
+  max-width: 380px;
+  height: 470px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
