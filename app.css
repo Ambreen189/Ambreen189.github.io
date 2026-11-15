@@ -419,7 +419,7 @@ img {
   gap: 30px;
 }
 
-.conactItem {
+.contactItem {
   background-color: #fff;
   border: 1px solid #E8E1D8;
   border-radius: 8px;
@@ -428,19 +428,19 @@ img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.conactItem:hover {
+.contactItem:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba (0, 0, 0, 0.08);
 }
 
-.conactItem h3 {
+.contactItem h3 {
   font-size: 21px;
   color: #8B7561;
   margin-bottom: 12px;
 }
 
 .contactItem p,
-.conactItem a {
+.contactItem a {
   font-size: 16px;
   color: #666;
 }
