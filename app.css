@@ -35,6 +35,9 @@ img {
   align-items: center;
   padding: 25px 8%;
   background-color: #FFF;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -469,4 +472,9 @@ img {
   .navLinks {
     gap: 12px;
   }
+}
+
+.navLinks a.active {
+  color: #A58B70;
+  font-weight: bold;
 }
