@@ -180,6 +180,58 @@ img {
   }
 }
 
+.about {
+  padding: 90px 8%;
+  background-color: #FFF;
+}
+
+.aboutMain {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutHeading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.aboutSub {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #A58B70;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.aboutHeading h2 {
+  font-size: 38px;
+  color: #292929;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutText {
+  max-width: 850px;
+  text-align: center;
+}
+
+.aboutText h3 {
+  font-size: 25px;
+  color: #8B7561;
+  margin-bottom: 22px;
+}
+
+.aboutText p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #666;
+  margin-bottom: 18px;
+}
+
 @media (max-width: 480px) {
   .heroContent h2 {
     font-size: 32px;
