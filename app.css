@@ -299,6 +299,32 @@ img {
   border-bottom: none;
 }
 
+.project {
+  padding: 90px 8%;
+  background-color: #fff;
+}
+
+.projectMain {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projectHeading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.projectHeading h2 {
+  font-size: 38px;
+  color: #292929;
+  margin-bottom: 15px;
+}
+
+.projectHeading>p:last-child {
+  font-size: 16px;
+  color: #666;
+}
+
 @media (max-width: 480px) {
   .heroContent h2 {
     font-size: 32px;
