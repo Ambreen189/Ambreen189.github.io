@@ -129,6 +129,14 @@ img {
   border-radius: 8px;
 }
 
+.footer {
+  background-color: #292929;
+  color: #F7F4EE;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
