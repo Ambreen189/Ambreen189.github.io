@@ -387,6 +387,68 @@ img {
   letter-spacing: 0.5px;
 }
 
+.contact {
+  padding: 90px 8%;
+  background-color: #F7F4EE;
+}
+
+.contactMain {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contactHeading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contactHeading h2 {
+  font-size: 38px;
+  color: #292929;
+  margin-bottom: 15px;
+}
+
+.contact-heading>p:last-child {
+  font-size: 16px;
+  color: #666;
+}
+
+.contactContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.conactItem {
+  background-color: #fff;
+  border: 1px solid #E8E1D8;
+  border-radius: 8px;
+  padding: 35px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.conactItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba (0, 0, 0, 0.08);
+}
+
+.conactItem h3 {
+  font-size: 21px;
+  color: #8B7561;
+  margin-bottom: 12px;
+}
+
+.contactItem p,
+.conactItem a {
+  font-size: 16px;
+  color: #666;
+}
+
+.contactItem a:hover {
+  color: #A58B70;
+}
+
 @media (max-width: 480px) {
   .heroContent h2 {
     font-size: 32px;
