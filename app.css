@@ -128,3 +128,61 @@ img {
   object-position: center;
   border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 5%;
+  }
+
+  .navLinks {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 6%;
+    gap: 35px;
+  }
+
+  .heroContent {
+    max-width: 100%;
+  }
+
+  .heroContent h2 {
+    font-size: 38px;
+  }
+
+  .heroContent h3 {
+    font-size: 22px;
+  }
+
+  .heroDescription {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .heroImage img {
+    max-width: 320px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroContent h2 {
+    font-size: 32px;
+  }
+
+  .heroImage img {
+    max-width: 280px;
+    height: 350px;
+  }
+
+  .navLinks {
+    gap: 12px;
+  }
+}
