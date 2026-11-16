@@ -2,6 +2,7 @@ console.log("Ambreen Saleem Portfolio Loaded Successfully");
 const navLinks = document.querySelectorAll(".navbar ul a");
 const sections = document.querySelectorAll("main section[id]");
 const backToTop = document.querySelector("#backToTop");
+const contactForm = document.querySelector("#contactForm");
 function updateActiveLink() {
   let currentSection = sections[0];
   sections.forEach(function (section) {
@@ -34,4 +35,16 @@ backToTop.addEventListener("click", function () {
     top: 0,
     behavior: "smooth"
   });
+});
+contactForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+  const name = document.querySelector("#name").value.trim();
+  const email = document.querySelector("#email").value.trim();
+  const message = document.querySelector("#message").value.trim();
+  if (name === "" || email === "" || message === "") {
+    alert("Please fill in all fields.");
+  } else {
+    alert("Thank you! Your message has been received.");
+    contactForm.reset();
+  }
 });
