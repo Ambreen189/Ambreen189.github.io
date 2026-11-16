@@ -147,6 +147,23 @@ img {
   font-size: 14px;
 }
 
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #A58B70;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+
+#backToTop:hover {
+  background-color: #3b2723;
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
