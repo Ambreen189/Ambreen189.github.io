@@ -170,16 +170,12 @@
           </p>
         </div>
         <div class="contactContent">
-          <div class="contactItem">
-            <h3>Email</h3>
-            <p>abc-email@example.com</p>
-          </div>
-          <div class="contactItem">
-            <h3>GitHub</h3>
-            <a href="https://github.com/Ambreen189" target="_blank">
-              Visit My GitHub Profile
-            </a>
-          </div>
+          <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
         </div>
       </div>
     </section>
@@ -188,4 +184,5 @@
   <button id="backToTop">↑</button>
   <script src="app.js"></script>
 </body>
+
 </html>
